@@ -1,0 +1,23 @@
+/*contact*/
+.subscription-content > span {
+    display: inline-block;
+    width: 100%;
+    text-align:left;
+    margin-bottom: 15px;
+}
+.subscription-content > span > i, .subscription-content > span > p {
+    display: inline-block;
+}
+.subscription-content > span > i{
+    margin-right:10px;
+}
+.subscription-container {
+    text-align: center;
+    color: #808080;
+    font-family: 'AileronRegular';
+    max-width: 430px;
+    margin: 50px auto;
+}
+.subscription-content > p {
+    margin-bottom: 25px;
+}
