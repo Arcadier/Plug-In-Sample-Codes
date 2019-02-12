@@ -18,7 +18,7 @@ try
     $licence->activate($content['stripeEmail'], $content['stripeToken']);
     $location = $baseUrl . '/admin/plugins/' . $packageId . '/index.php';
     header('Location: ' . $location);
-    exit;
+    exit();
 } catch (Exception $e) {
     error_log("unable to sign up customer:" . $content['stripeEmail'] . ", error:" . $e->getMessage());
     $location = $baseUrl . '/admin/plugins/' . $packageId . '/oops.php';

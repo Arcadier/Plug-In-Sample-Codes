@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     {
         $licence = new License();
         $licence->deactivate();
-        exit;
+        exit();
     } catch (Exception $e) {
         error_log("unable to deactivate this subcriptions", "error:" . $e->getMessage());
         // TODO

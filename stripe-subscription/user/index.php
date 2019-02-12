@@ -2,7 +2,7 @@
 require '../license/license.php';
 $licence = new License();
 if (!$licence->isValid()) {
-    exit;
+    exit();
 }
 
 ?>
