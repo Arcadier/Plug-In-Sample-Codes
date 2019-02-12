@@ -10,6 +10,7 @@ class License {
     private $planId = 'yearly-1'; // #2
     private $trial_file = '../license/trial-expire.php';
     private $stripe_subscription_id = '../license/stripe-user.php';
+    private $phpExit = '<?php exit(); ?>';
     public function __construct() {
         $this->isValid = false;
     }
@@ -21,7 +22,7 @@ class License {
         }
         if (file_exists($this->stripe_subscription_id) == true) {
             $subscriptionId = file_get_contents($this->stripe_subscription_id);
-            $subscriptionId = str_replace('<?php exit;?>', '', $subscriptionId);
+            $subscriptionId = str_replace($phpExit, '', $subscriptionId);
             if ($subscriptionId != null) {
                 \Stripe\Stripe::setApiKey($this->stripeKey);
                 $subscription = \Stripe\Subscription::retrieve($subscriptionId);
@@ -37,7 +38,7 @@ class License {
         }
         if (file_exists($this->trial_file) == true) {
             $time = file_get_contents($this->trial_file);
-            $time = str_replace('<?php exit;?>', '', $time);
+            $time = str_replace($phpExit, '', $time);
             $left = (int) $time - time();
             $this->isValid = ($left > 0);
             return $this->isValid;
@@ -69,7 +70,7 @@ class License {
                 ]);
                 error_log(json_encode($subscription));
                 if ($subscription->id != null) {
-                    file_put_contents($this->stripe_subscription_id, '<?php exit;?>' . $subscription->id);
+                    file_put_contents($this->stripe_subscription_id, $phpExit . $subscription->id);
                 }
             } catch (Exception $e) {
                 error_log(json_encode($e));
@@ -86,7 +87,7 @@ class License {
 
             if (file_exists($this->stripe_subscription_id) == true) {
                 $subscriptionId = file_get_contents($this->stripe_subscription_id);
-                $subscriptionId = str_replace('<?php exit;?>', '', $subscriptionId);
+                $subscriptionId = str_replace($phpExit, '', $subscriptionId);
                 if ($subscriptionId != null) {
                     \Stripe\Stripe::setApiKey($this->stripeKey);
                     $subscription = \Stripe\Subscription::retrieve($subscriptionId);
