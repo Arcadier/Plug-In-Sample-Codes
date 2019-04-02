@@ -2,7 +2,7 @@ Sample Packages
 ===============
 The term package here refers to Plug-ins. Their purpose is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some. Hence, we allow those who need them to install/uninstall those features as plug-ins.
 
-These customers sometimes approach developers to help them build these plug ins. So, on top of our [API docmenation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on a **Growth**, **Scale**, or **Enterprise** plans. 
+These customers sometimes approach developers to help them build these plug ins. So, on top of our [API documentation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on a **Growth**, **Scale**, or **Enterprise** plans. 
 ***
 
 Languages
