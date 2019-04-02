@@ -1,6 +1,8 @@
 Sample Packages
 ===============
-This repository contains examples of fully functional and tested plug-in source codes. These plug-ins only work on Arcadier's marketplaces which are on a **Growth**, **Scale**, or **Enterprise** plans.
+The term package here refers to Plug-ins. Their purpose is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some. Hence, we allow those who need them to install/uninstall those features as plug-ins.
+
+These customers sometimes approach developers to help them build these plug ins. So, on top of our [API docmenation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on a **Growth**, **Scale**, or **Enterprise** plans. 
 ***
 
 Languages
@@ -23,4 +25,12 @@ As explained in our [Plug-in documentation](#), the file structure of each Plug-
 
 How to install them as plug in
 ------------------------------
+1. Download the repository as .zip
+2. Extract everything
+3. Choose the plug-in you want to install
+   * Honestbee
+   * Stripe
+   * Mailchimp
+4. Compress the `admin` and `user` folders together into a single root folder.
+5. Upload the .zip folder on your [Developer Dashboard](#)
 
