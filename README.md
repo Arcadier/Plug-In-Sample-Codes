@@ -1,3 +1,4 @@
+![Arcadier](https://theme.zdassets.com/theme_assets/2008942/9566e69f67b1ee67fdfbcd79b1e580bdbbc98874.svg "Arcadier")
 Sample Packages
 ===============
 The term package here refers to Plug-ins. Their purpose is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some. Hence, we allow those who need them to install/uninstall those features as plug-ins.
