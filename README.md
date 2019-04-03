@@ -6,12 +6,43 @@ The term package here refers to Plug-ins. Their purpose is to add very specific 
 
 These customers sometimes approach developers to help them build these plug ins. So, on top of our [API documentation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on a **Growth**, **Scale**, or **Enterprise** plans. 
 
-This repository contains actual native plug-in examples as well as recipes' examples. Those recipes aim at showing basic concepts behind creating plug-ins. I.e, most commonly coded functions like
+This repository contains recipes' examples. Those recipes aim at showing basic concepts behind creating plug-ins. I.e, most commonly coded functions like
 * Creating new pages for Admin/Merchant/Buyer/All
+--* Using HTML only
+--* Using JS only
+--* Using both HTML and JS
 * Adding changes to existing pages for Admin/Merchant/Buyer/All
+--* Using JS and relevant libraries (jQuery), combined with APIs
 * How to store/retrieve data on Arcadier's Database
+--* Using JS and Custom fields on the [Developer Dashboard](#)
 * How to use our API's the most efficiently
-* Perform secure operations
+--* Using JS and common code snippets like:
+
+```javascript
+                                  var token = getCookie('webapitoken');
+                                  var settings = {
+                                      "url": "", 
+                                      "method": "", 
+                                      "timeout": "", 
+                                      "headers": { 
+                                          "Content-Type": "application/json",
+                                          "Authorisation": "Bearer" + token
+                                      }, 
+                                      "data": ""
+                                  };
+                                  $.ajax(settings).done(function (response) {
+                                    console.log(response);
+                                  });
+
+                                  function getCookie(name){
+                                      var value = '; ' + document.cookie;
+                                      var parts = value.split('; ' + name + '=');
+                                      if (parts.length === 2) {
+                                          return parts.pop().split(';').shift();
+                                      }
+                                  }
+```
+Combining those basic concepts make whole plug-ins, and are reflected in Honestbee's and Mailchimp's examples.
 ***
 
 Languages
