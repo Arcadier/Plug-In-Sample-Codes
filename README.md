@@ -19,30 +19,16 @@ This repository contains recipes' examples. Those recipes aim at showing basic c
 --* Using JS and common code snippets like:
 
 ```javascript
-                                  var token = getCookie('webapitoken');
-                                  var settings = {
-                                      "url": "", 
-                                      "method": "", 
-                                      "timeout": "", 
-                                      "headers": { 
-                                          "Content-Type": "application/json",
-                                          "Authorisation": "Bearer" + token
-                                      }, 
-                                      "data": ""
-                                  };
-                                  $.ajax(settings).done(function (response) {
-                                    console.log(response);
-                                  });
-
-                                  function getCookie(name){
-                                      var value = '; ' + document.cookie;
-                                      var parts = value.split('; ' + name + '=');
-                                      if (parts.length === 2) {
-                                          return parts.pop().split(';').shift();
-                                      }
-                                  }
+//This function is used in almost all API calls when Authenticating                             
+function getCookie(name){
+    var value = '; ' + document.cookie;
+    var parts = value.split('; ' + name + '=');
+    if (parts.length === 2) {
+        return parts.pop().split(';').shift();
+    }
+}
 ```
-Combining those basic concepts make whole plug-ins, and are reflected in Honestbee's and Mailchimp's examples.
+* Combining those basic concepts make whole plug-ins, and are reflected in Honestbee's and Mailchimp's examples.
 ***
 
 Languages
