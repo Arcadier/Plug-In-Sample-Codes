@@ -8,15 +8,15 @@ These customers sometimes approach developers to help them build these plug ins.
 
 This repository contains recipes' examples. Those recipes aim at showing basic concepts behind creating plug-ins. I.e, most commonly coded functions like
 * Creating new pages for Admin/Merchant/Buyer/All
---* Using HTML only
---* Using JS only
---* Using both HTML and JS
+  * Using HTML only
+  * Using JS only
+  * Using both HTML and JS
 * Adding changes to existing pages for Admin/Merchant/Buyer/All
---* Using JS and relevant libraries (jQuery), combined with APIs
+  * Using JS and relevant libraries (jQuery), combined with APIs
 * How to store/retrieve data on Arcadier's Database
---* Using JS and Custom fields on the [Developer Dashboard](#)
+  * Using JS and Custom fields on the [Developer Dashboard](#)
 * How to use our API's the most efficiently
---* Using JS and common code snippets like:
+  * Using JS and common code snippets like:
 
 ```javascript
 //This function is used in almost all API calls when Authenticating                             
