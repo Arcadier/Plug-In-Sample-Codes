@@ -19,7 +19,7 @@ This repository contains recipes' examples. Those recipes aim at showing basic c
   * Using JS and common code snippets like:
 
 ```javascript
-//This function is used in almost all API calls when Authenticating                             
+//This function is used in almost all API calls when Authenticating. It returns the Authorisation token.                             
 function getCookie(name){
     var value = '; ' + document.cookie;
     var parts = value.split('; ' + name + '=');
