@@ -2,7 +2,7 @@
 
 Plug-In Samples
 ===============
-The purpose of plus-ins is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some of them. Hence, we allow those who need them to install/uninstall those features as plug-ins.
+The purpose of plug-ins is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some of them. Hence, we allow those who need them to install/uninstall those features as plug-ins.
 
 These customers sometimes approach developers to help them build these plug ins. So, on top of our [API documentation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on [**Scale**](https://www.arcadier.com/packages.html), or [**Enterprise**](https://www.arcadier.com/enterprise.html) plans. 
 
