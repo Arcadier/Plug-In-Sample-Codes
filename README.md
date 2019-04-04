@@ -4,7 +4,7 @@ Plug-In Samples
 ===============
 The purpose of plug-ins is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some of them. Hence, we allow those who need them to install/uninstall those features as plug-ins.
 
-These customers sometimes approach developers to help them build these plug ins. So, on top of our [API documentation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on [**Scale**](https://www.arcadier.com/packages.html), or [**Enterprise**](https://www.arcadier.com/enterprise.html) plans. 
+These customers sometimes approach developers to help them build these plug ins. So, on top of our [**API documentation**](apiv2.arcadier.com), and [**Plug-In Documentation**](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on [**Scale**](https://www.arcadier.com/packages.html), or [**Enterprise**](https://www.arcadier.com/enterprise.html) plans. 
 
 This repository contains recipes' examples. Those recipes aim at showing basic concepts behind creating plug-ins. I.e, most commonly coded functions like
 * Creating new pages for Admin/Merchant/Buyer/All
@@ -14,7 +14,7 @@ This repository contains recipes' examples. Those recipes aim at showing basic c
 * Adding changes to existing pages for Admin/Merchant/Buyer/All
   * Using JS and relevant libraries (jQuery), combined with APIs
 * How to store/retrieve data on Arcadier's Database
-  * Using JS and Custom fields on the [Developer Dashboard](#)
+  * Using JS and Custom fields on the [**Developer Dashboard**](#)
 * How to use our API's the most efficiently
   * Using JS and common code snippets like:
 
@@ -43,7 +43,7 @@ Our server-side language is in PHP.
 
 File Structure
 --------------
-As explained in our [Plug-in documentation](#), the file structure of each Plug-in's source code is very specific and is reflected in this repository. For example, the honestbee plug in has `honestbee` as root, with 2 subfolders `admin` and `user`. 
+As explained in our [**Plug-in documentation**](#), the file structure of each Plug-in's source code is very specific and is reflected in this repository. For example, the honestbee plug in has `honestbee` as root, with 2 subfolders `admin` and `user`. 
 
 `admin` contains the part of the code that executes for the marketplace administrator. `user` has the code that executes for the merchants and buyers.
 
@@ -58,5 +58,5 @@ How to install them as plug in
    * Stripe, or
    * Mailchimp
 4. Compress the `admin` and `user` folders together into a single root folder.
-5. Upload the .zip folder on your [Developer Dashboard](#)
+5. Upload the .zip folder on your [**Developer Dashboard**](#)
 
