@@ -1,10 +1,10 @@
 ![Arcadier](https://theme.zdassets.com/theme_assets/2008942/9566e69f67b1ee67fdfbcd79b1e580bdbbc98874.svg "Arcadier")
 
-Sample Packages
+Plug-In Samples
 ===============
-The term package here refers to Plug-ins. Their purpose is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some. Hence, we allow those who need them to install/uninstall those features as plug-ins.
+The purpose of plus-ins is to add very specific features to our core product, which are not needed by every marketplace owner, but still valuable to some of them. Hence, we allow those who need them to install/uninstall those features as plug-ins.
 
-These customers sometimes approach developers to help them build these plug ins. So, on top of our [API documentation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on a **Growth**, **Scale**, or **Enterprise** plans. 
+These customers sometimes approach developers to help them build these plug ins. So, on top of our [API documentation](apiv2.arcadier.com), and [Plug-In Documentation](#), this repository provides examples of how everything is brought together to create a fully functional plug-in. These plug-ins only work on Arcadier's marketplaces which are on [**Scale**](https://www.arcadier.com/packages.html), or [**Enterprise**](https://www.arcadier.com/enterprise.html) plans. 
 
 This repository contains recipes' examples. Those recipes aim at showing basic concepts behind creating plug-ins. I.e, most commonly coded functions like
 * Creating new pages for Admin/Merchant/Buyer/All
