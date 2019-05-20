@@ -27,7 +27,7 @@ How to install them as plug in
    * Honestbee,
    * Stripe, or
    * Mailchimp.
-4. Compress the `admin` and `user` folders together into a single root folder. *It has to be this way because our system is one stubborn little butterfly.*
+4. Compress the `admin` and `user` folders together into a single root folder. *It has to be this way.*
 5. Upload the .zip folder on your Developer Dashboard.
 6. Log in to your marketplace.
 7. Navigate to Plug-in marketplace
