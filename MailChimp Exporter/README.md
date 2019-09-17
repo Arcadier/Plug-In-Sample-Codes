@@ -1,3 +1,5 @@
+<p align="center"><img src="https://bootstrap.arcadier.com/github/plug-in-icons/Mailchimp.png"></p>
+
 ### Export the latest list of users on your marketplace to your MailChimp account easily. 
 #### Click :boom:[here](https://github.com/Arcadier/Mailchimp-Exporter):boom: to clone/download the repository.
 
