@@ -7,5 +7,5 @@
 ##### 1. Click :boom:[here](https://github.com/Arcadier/Webhooks-Event-Triggers-and-Vetting/tree/master/(JS%20Custom%20Trigger)%20Triggers%20Vetting%20on%20Item%20Edit):boom: to clone/download the repository for Admin vetting on edited items.
 ##### 2. Click :boom:[here](https://github.com/Arcadier/Webhooks-Event-Triggers-and-Vetting/tree/master/(JS%20Custom%20Trigger)%20Triggers%20vetting%20on%20Item%20Creation):boom: to clone/download the repository for Admin vetting on newly created items.
 
-<img src="https://i.ibb.co/JxBTncq/Screenshot-75.png" alt="Screenshot-75" border="0">
+<img src="" alt="Screenshot-75" border="0">
 
